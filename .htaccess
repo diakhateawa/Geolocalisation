@@ -1,0 +1,11 @@
+RewriteEngine On
+
+RewriteRule ^accueil$ accueil.php
+RewriteRule ^.{0}$ index.php
+RewriteRule ^localites$ src/view/localite/add.php
+RewriteRule ^localites$ src/view/localite/edit.php
+RewriteRule ^localites$ src/view/localite/liste.php
+
+
+RewriteRule ^localiteController$ controller/localiteController.php
+
